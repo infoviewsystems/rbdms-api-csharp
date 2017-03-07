@@ -1,0 +1,12 @@
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\obj\Debug\RbDmsRestAPI.csprojResolveAssemblyReference.cache
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\RbDmsRestAPI.exe.config
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\RbDmsRestAPI.exe
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\RbDmsRestAPI.pdb
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\Newtonsoft.Json.dll
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\RestSharp.dll
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\Newtonsoft.Json.xml
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\RestSharp.xml
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\obj\Debug\RbDmsRestAPI.exe
+c:\users\nalin\documents\visual studio 2017\Projects\RbDmsRestAPI\RbDmsRestAPI\obj\Debug\RbDmsRestAPI.pdb
