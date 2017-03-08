@@ -2,8 +2,8 @@
 {
     public class Inventory
     {
-        public string distribtorCode { get; set; }
-        public string distribtorName { get; set; }
+        public string distributorCode { get; set; }
+        public string distributorName { get; set; }
         public string warehouseCode { get; set; }
         public string warehouseName { get; set; }
         public string productCode { get; set; }
