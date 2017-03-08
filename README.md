@@ -4,10 +4,14 @@
 ## Setup
 Setup for new DMS REST API integration:
 
-    options.uri = "http://rbdms-uat.cloudhub.io/";
-    options.apiPath = "npapi/inventoryItems?countryCode=EA&dbName=TEST";
-    options.oauthUrl =    "http://rboauth2.cloudhub.io/tokengrant_type=CLIENT_CREDENTIALS&client_id=89412b6a67084fee872636e487e66970&client_secret=a547facd634f454096D9ED83CB5FA9E4";
-    Dms dms = new Dms();
+            options.uri = "http://rbdms-uat.cloudhub.io/";
+            options.endpoint = "inventoryItems";
+            options.oauthUri = "http://rboauth2.cloudhub.io/";
+            options.client_id = "89412b6a67084fee872636e487e66970";
+            options.client_secret = "a547facd634f454096D9ED83CB5FA9E4";
+	        options.countryCode = "EA";
+            options.dbName = "TES";
+            Dms dms = new Dms();
 
 ## OAUTH2 Access Token
 Retrieve Oauth2 Access Token
@@ -15,13 +19,13 @@ Retrieve Oauth2 Access Token
     Token token = dms.GetToken(options);
 
 ## Method GET
-Provide Path including country code and Distributor code as parameters
+Provide api uri, endpoint, Oauth2 Uri, clientId, clientSecret, country code and Distributor code as parameters
 
     // Get the inventorylist from Newspage
-    string inv= await dms.GetInventoryAsync(options.apiPath);
+    string inv= await dms.GetDataAsync(options);
 
 ## Method POST
-Provide Data and Path along with country code and Distributor code as parameters
+Provide api uri, endpoint, Oauth2 Uri, clientId, clientSecret, country code, Distributor code and data as parameters
 
     // Create a new inventory list to post to New Page
     List<Inventory> inventory = new List<Inventory>();
@@ -31,7 +35,7 @@ Provide Data and Path along with country code and Distributor code as parameters
     inventory.Add(inv2);
 
      //Post Inventory list
-     var url = await dms.CreateInventoryAsync(inventory, options);
+     var url = await dms.PostDataAsync(options, inventory);
 
 ## Endpoints
 The following are the endpoints available:
