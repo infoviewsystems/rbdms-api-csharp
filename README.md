@@ -4,15 +4,16 @@
 ## Setup
 Setup for new DMS REST API integration:
 
+            Options options = new Options();
             options.uri = "http://rbdms-uat.cloudhub.io/";
             options.endpoint = "inventoryItems";
             options.oauthUri = "http://rboauth2.cloudhub.io/";
             options.client_id = "89412b6a67084fee872636e487e66970";
             options.client_secret = "a547facd634f454096D9ED83CB5FA9E4";
-	    options.countryCode = "EA";
+            options.countryCode = "EA";
             options.dbName = "TEST";
             Dms dms = new Dms();
-
+	    
 ## OAUTH2 Access Token
 Retrieve Oauth2 Access Token
 
